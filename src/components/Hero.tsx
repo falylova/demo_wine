@@ -3,17 +3,17 @@ import type { CSSProperties } from "react";
 
 export function Hero() {
   return (
-    <section id="home" className="relative flex flex-wrap min-h-svh bg-wine justify-center items-center 
+    <section id="home" className="relative flex min-h-svh bg-wine justify-center items-center 
     overflow-hidden pt-10 sm:pt-20 mx-0 lg:pt-4 lg:mx-20">
       <div className="relative mx-auto grid w-full items-center gap-10 px-6 sm:px-10 lg:grid-cols-2 lg:gap-8">
         <div className="relative flex flex-col items-center z-10">
           <Reveal delay={100}>
-            <h1 className=" font-display text-center text-[clamp(3rem,4vw,6rem)] font-normal text-cream">
+            <h1 className=" font-display text-center text-[clamp(5rem,6vw,8rem)] font-normal text-cream">
               Finest wine By fal
             </h1>
           </Reveal>
           <Reveal delay={200}>
-            <p className=" text-center mt-8 max-w-md text-base leading-relaxed text-cream/85 sm:text-lg">
+            <p className=" text-center mt-2 max-w-md text-base leading-relaxed text-cream/85 text-[clamp(1.25rem,1.5vw,4rem)]">
                 Discover the excellence <span className="text-cream/85">of Madagascar wine</span> — 
                 a perfect harmony of passion, tradition, and elegance, created to offer a unique tasting experience.            </p>
           </Reveal>
@@ -21,7 +21,8 @@ export function Hero() {
             <div className="mt-10 flex flex-wrap items-center gap-6">
               <a
                 href="#redwine"
-                className="group bg-wine-soft inline-flex items-center gap-3 rounded-md border border-black bg-wine-800/60 px-8 py-4 text-sm font-medium hover:text-wine text-cream backdrop-blur-sm transition-all duration-300 hover:border-rose-soft hover:bg-rose-soft hover:tracking-wide"
+                className="text-[clamp(1rem,1vw,3rem)] group bg-wine-soft inline-flex items-center gap-3 rounded-md border
+                 border-black bg-wine-800/60 px-8 py-4 text-sm font-medium hover:text-wine text-cream backdrop-blur-sm transition-all duration-300 hover:border-rose-soft hover:bg-rose-soft hover:tracking-wide"
               >
                 Discover
                 <svg viewBox="0 0 24 24" className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
@@ -29,8 +30,8 @@ export function Hero() {
                   <path d="M13 5l7 7-7 7" />
                 </svg>
               </a>
-              <a href="#promotions" className="text-sm text-cream/70 underline-offset-4 transition-colors hover:text-rose-soft hover:underline">
-                View monthly promotions
+              <a href="#promotions" className="text-[clamp(1rem,1vw,3rem)] text-cream/70 underline-offset-4 transition-colors hover:text-rose-soft hover:underline">
+                View history
               </a>
             </div>
           </Reveal>

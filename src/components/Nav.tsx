@@ -52,7 +52,7 @@ export function Nav() {
                 <a
                   href={l.href}
                   aria-current={isActive ? "page" : undefined}
-                  className={`block rounded-full px-4 py-2 text-[13px] font-medium transition-all duration-300 ${
+                  className={`text-[clamp(1rem,1vw,3rem)] block rounded-full px-4 py-2 text-[13px] font-medium transition-all duration-300 ${
                     isActive
                       ? "bg-wine-soft text-cream-900"
                       : "text-cream/85 hover:bg-white/8"
