@@ -104,8 +104,4 @@ npm run preview
 
 Ce projet a été réalisé pour mettre en pratique le développement d'interfaces web modernes avec React, TypeScript, Tailwind CSS et Three.js, notamment l'intégration d'éléments 3D et d'animations dans une interface utilisateur.
 
-## Auteur
 
-Lova Faly
-
-GitHub : https://github.com/falylova
